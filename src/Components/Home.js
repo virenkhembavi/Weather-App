@@ -49,7 +49,7 @@ function Home() {
                             </div>
                             <div>
                                 <h4 style={{ marginBottom: "-10px" }}>Temp</h4>
-                                <p>{cityPressure.temp}</p>
+                                <p>{((cityPressure.temp) - 275).toFixed(2)}C</p>
                             </div>
                         </div>
                     </>
