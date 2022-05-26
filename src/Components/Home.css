@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.HeadWapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF8F1;
+}
+
+.Main {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Main2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inputbox {
+    width: 400px;
+    border-radius: 15px;
+    height: 40px;
+    border: 2px solid lightgray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.buttonbox {
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 18px;
+    color: skyblue;
+}
+
+.Card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 60%;
+    height: 200px;
+    border: none;
+    background-color: transparent;
+}
+
+.cardButtom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
